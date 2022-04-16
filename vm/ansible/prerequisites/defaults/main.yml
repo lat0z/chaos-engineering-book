@@ -7,7 +7,6 @@ packages_to_install:
   - curl
   - nginx
   - apache2-utils
-  - docker.io=19.03.8-0ubuntu1.20.04
   - sysstat
   - python3-pip
   - stress

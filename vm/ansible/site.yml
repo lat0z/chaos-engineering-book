@@ -2,4 +2,5 @@
 - hosts: workers
   gather_facts: true
   roles:
+    - {role: docker}
     - {role: prerequisites, tags: ['prerequisites','base']}
